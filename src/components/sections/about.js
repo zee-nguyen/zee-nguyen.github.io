@@ -125,7 +125,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Eleventy', 'Node.js', 'WordPress'];
+  const skills = ['Golang', 'Python', 'Google Cloud Platform', 'Kubernetes', 'Docker', 'MySQL'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -135,30 +135,20 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Brittany and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2012 when I decided to try editing custom
-              Tumblr themes — turns out hacking together a custom reblog button taught me a lot
-              about HTML &amp; CSS!
+              Hello! My name is Zee. I'm a Boston-based software engineer and photographer. My first
+              experience with coding came a few years ago when I was working on my{' '}
+              <a href="https://zeenguyen.com/">photography portfolio</a>. Hoping to take the
+              existing template and adjust it to fit my creative vision, I embarked on several
+              Google adventures to learn HTML and CSS and successfully created a webpage that I
+              loved. Back then, I found great power in using inline styling. I felt especially
+              empowered afterwards and before I realized, I've spent the last year and half
+              immersing myself in learning to program.
             </p>
 
             <p>
               Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
-              <a href="https://starry.com/">a start-up</a>,{' '}
-              <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
-              main focus these days is building accessible, inclusive products and digital
-              experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
-              clients.
-            </p>
-
-            <p>
-              I also recently{' '}
-              <a href="https://www.newline.co/courses/build-a-spotify-connected-app">
-                launched a course
-              </a>{' '}
-              that covers everything you need to build a web app with the Spotify API using Node
-              &amp; React.
+              <a href="https://www.mercari.com/">Mercari</a>, a C2C marketplace, and{' '}
+              <a href="https://www.capitalone.com/">Capital One</a>.
             </p>
 
             <p>Here are a few technologies I’ve been working with recently:</p>
